@@ -3,37 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Me</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
+     <header>
+        <div class="header-content">
+            <center><h1>MY PORTFOLIO</h1></center>
+            <div class="dropdown">
+                <button class="dropbtn"><span class="glyphicon glyphicon-th-list"></span></button>
+                <div class="dropdown-content">
+                    <a href="about.html">About</a>
+                    <a href="certifications.html">Certifications</a>
+                    <a href="#projects">Projects</a>
+                    <a href="contact.html">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </header>
 
     <main>
-        <section id="contact-me">
-            <h2>Contact Me</h2>
-            <center><p>
-                You can reach out to me through the following channels:
-            </p></center>
-            <div class="contact-links">
-                <a href="https://www.instagram.com/urstrulysuchith" target="_blank">
-                    <img src="instagram.png" alt="Instagram" width="32" height="32">
-                </a>&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="https://twitter.com/urstrulysuchith" target="_blank">
-                    <img src="twitter.png" alt="Twitter" width="32" height="32">
-                </a>&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="https://www.linkedin.com/in/suchith-g-s-406505225/" target="_blank">
-                    <img src="linkedin.png" alt="LinkedIn" width="32" height="32">
-                </a>&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="https://github.com/suchith07" target="_blank">
-                    <img src="github.png" alt="GitHub" width="32" height="32">
-                </a>
+        <section id="home">
+            <div class="main-content">
+                <img src="mypic.jpg" alt="My Picture">
+                <h1>G S SUCHITH</h1>
+                <a href="myresume.pdf" class="resume-button" download>Download Resume</a>
             </div>
-            <p>
-                Phone: 9550504525 | Email: suchithsetty777@gmail.com
-                    
-                </a>
-            </p>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Your introduction and bio go here.</p>
         </section>
     </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
